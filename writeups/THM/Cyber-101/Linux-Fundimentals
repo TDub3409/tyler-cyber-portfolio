@@ -1,7 +1,51 @@
-# Linux Fundamentals 
+# Linux Fundamentals 1, 2, and 3
 
 ## Course Objective
 Learn basic Linux commands and how to navigate a CLI
 
-## Key commands used
+## Key Commands Used
+Echo - output any text provided
+whoami - find out what user I am currently logged in as
+ls - list files in the current directory (-a shows all hidden directories -l shows permission and owner)
+cd - change directory 
+pwd - print working directory
+cat - open a file to read
+find - find a folder for us (NOTE typed find -name <name of file>)
+grep - allows you to search a file for specific contents (-R is recursive) 
+-- help - using this with a command will show all the possible options for that command
+man - using man and then a command brings up the manual for that command
+touch - create a file
+mkdir - creates a folder
+cp - copy a file or folder
+mv - move a file or folder
+rm - remove a file or folder (-R is needed to remove a directory
+file - determine the type of file
+su - switching between users (-l starts the shell as an actual login)
+
+
+## Common Linux Operators
+- & allows you to run commands in the background of your terminal
+- && This allows you to combine commands (NOTE: command one will only run if command 2 runs) 
+- > This operator is a redirector. This means that we can take the output of a command and direct it elsewhere
+- >> Same as > but appends the output rather than replacing it
+
+## Read Write Execute permissions
+Example of permissions: rwxrw--r--
+
+R = Read value = 4
+W = Write value = 2
+X = Execute value = 1
+
+First 3 = owner
+second 3 = group
+thrid 3 = others
+
+## Common Directories
+/etc - root directory
+/var - This folder stores data that is frequently accessed or written by services or applications running on the system
+/tmp - this folder stores temporary data 
+
+
+
+
 
