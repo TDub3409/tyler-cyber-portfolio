@@ -1,10 +1,15 @@
 ## Note: These notes may be smaller as I have been using Windows for a while, so I will only put what I don't know in here
 
-## Types of permissions for files and folders
+## Types of permissions for files and folders (To view permission, right-click and then click properties, and then security)
 Read (folder) - allows viewing and listening to files and subfolders 
 Read (file) - allows viewing or accessing a file's contents 
 Write (folder) - permits adding of files and subfolders
 Write (file) - permits writing a file
 Read and Execute (folder and file) - Same as read, but you can now execute 
 Listen Folder Contents (folder only) - allows listening and viewing of files and subfolders as well as executing, but for subfolders only. 
+Modify (folder and file) - Allows read, write, and now deletion of the file and folder
+Full Control (folder and file) - allows read, write, deletion, and changing of a folder or file  
 
+## Administrator
+To see if you are an administrator, go to other users and see if you have an add button. 
+Using the run app and then lusrmgr.msc (Local User and Group Management) allows you to see all of the users
