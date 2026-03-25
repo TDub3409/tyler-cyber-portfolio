@@ -1,4 +1,10 @@
 ## Note: These notes may be smaller as I have been using Windows for a while, so I will only put what I don't know in here
 
 ## Types of permissions for files and folders
-Read - 
+Read (folder) - allows viewing and listening to files and subfolders 
+Read (file) - allows viewing or accessing a file's contents 
+Write (folder) - permits adding of files and subfolders
+Write (file) - permits writing a file
+Read and Execute (folder and file) - Same as read, but you can now execute 
+Listen Folder Contents (folder only) - allows listening and viewing of files and subfolders as well as executing, but for subfolders only. 
+
