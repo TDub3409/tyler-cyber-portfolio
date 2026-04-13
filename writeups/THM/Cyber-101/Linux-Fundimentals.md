@@ -71,30 +71,42 @@ add-apt-repository - lets you add a repository
 
 ## Common Linux Operators
 - & allows you to run commands in the background of your terminal
-- && This allows you to combine commands (NOTE: command one will only run if command 2 runs) 
-- > This operator is a redirector. This means that we can take the output of a command and direct it elsewhere
-- >> Same as > but appends the output rather than replacing it
+- 
+- && This allows you to combine commands (NOTE: command one will only run if command 2 runs)
+- 
+- ">" This operator is a redirector. This means that we can take the output of a command and direct it elsewhere
+- 
+- ">>" Same as > but appends the output rather than replacing it
 
 ## Read Write Execute permissions
 Example of permissions: rwxrw--r--
 
 R = Read value = 4
+
 W = Write value = 2
+
 X = Execute value = 1
 
 First 3 = owner
+
 second 3 = group
+
 thrid 3 = others
 
 ## Common Directories
 /etc - root directory
+
 /var - This folder stores data that is frequently accessed or written by services or applications running on the system
+
 /tmp - this folder stores temporary data 
 
 ## How to Host a Web Server (allows you to download files from one machine to another)
 Using Python 3, we can host a web server. Here are the following steps
+
 1. Start up Python 3 on one terminal using (python3 -m http.server)
+   
 2. From a different machine, you can now download a file using this command (wget http://<ip of machine running Python>:8000/myfile
+   
 3. Once done, use CNTRL C to stop
 
 ## Looking At Logs 
