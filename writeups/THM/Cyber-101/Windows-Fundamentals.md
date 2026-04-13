@@ -44,8 +44,13 @@ Windows Registry - the Windows Registry is a central hierarchical database used 
 whoami - output name of user logged in 
 
 hostname - output computer name 
+
 ipconfig - will show you the network address settings for the computer
+
 /? - This will bring up a manual for any prompt for more information
+
 cls - clear the command prompt screen
+
 netstat - will display the protocol stats and current TCP/IP network connections
+
 net - used to manage network resources
