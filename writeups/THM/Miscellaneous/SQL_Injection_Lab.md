@@ -1,4 +1,4 @@
-## Things I did and learned in this lab
+### Things I did and learned in this lab
 
 ## How the SQL Injection Works
 1 OR 1=1 - This basically is a true or false statement that will always come back as true. With this, it will grab all the usernames in the system, but will use the first. 
