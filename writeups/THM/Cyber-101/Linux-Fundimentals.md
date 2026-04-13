@@ -71,11 +71,11 @@ add-apt-repository - lets you add a repository
 
 ## Common Linux Operators
 - & allows you to run commands in the background of your terminal
-- 
+  
 - && This allows you to combine commands (NOTE: command one will only run if command 2 runs)
-- 
+  
 - ">" This operator is a redirector. This means that we can take the output of a command and direct it elsewhere
-- 
+  
 - ">>" Same as > but appends the output rather than replacing it
 
 ## Read Write Execute permissions
