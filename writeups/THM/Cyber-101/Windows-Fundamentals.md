@@ -1,4 +1,4 @@
-## Note: These notes may be smaller as I have been using Windows for a while, so I will only put what I don't know in here
+### Note: These notes may be smaller as I have been using Windows for a while, so I will only put what I don't know in here
 
 ## Types of permissions for files and folders (To view permission, right-click and then click properties, and then security)
 Read (folder) - allows viewing and listening to files and subfolders 
@@ -47,10 +47,33 @@ hostname - output computer name
 
 ipconfig - will show you the network address settings for the computer
 
-/? - This will bring up a manual for any prompt for more information
-
 cls - clear the command prompt screen
 
 netstat - will display the protocol stats and current TCP/IP network connections
 
+/? - This will bring up a manual for any prompt for more information
+
 net - used to manage network resources
+
+## Quick Windows security notes 
+Make sure your device is up to date for security
+
+Security can be changed and configured in Windows settings. This includes virus protection, firewall protection, app and browser control, and device security
+
+### 3 types of network for Windows firewall
+1. Domain: Domain network applies to the networks where the host system can authenticate to a domain controller
+
+2. Private: The private profile is user-assigned and is used to designate home or private networks
+
+3. Public: The default profile is the public profile, used to designate public networks such as Wi-Fi hotspots at coffee shops, airports, and other locations
+
+TPM (Trusted Platform Module) - This is technology designed to provide hardware-based protection. It is basically a chip that provides cryptographic operations 
+
+BitLocker - BitLocker Drive Encryption is a data protection feature that integrates with the operating system and addresses the threats of data theft or exposure from lost, stolen, or inappropriately decommissioned computers. This should be used with TPM for the best protection.
+
+VSS (Volume Shadow Copy Service) - VSS will take a snapshot of data in time and will be able to use it as a backup.
+
+## Windows Domain
+Windows Domain - a group of users and computers under the administration of a given business. 
+
+Active Directory - Acts as a central hub that controls the information of all objects within the network. Things that are in objects are users, groups, machines, printers, and really anything that belongs on the network. 
