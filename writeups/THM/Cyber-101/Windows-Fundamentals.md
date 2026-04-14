@@ -97,3 +97,16 @@ Domain computers - All existing computers
 
 Domain controllers - All existing DCs
 
+## Connecting Through RDP 
+Go to the command line of the device and type xfreerdp <"ip address"> to connect
+
+## Group Policy Manager 
+
+This application allows you to link organizational units to group policies
+
+## Trees and forest 
+Tree - This is when your company becomes so large that one Active Directory is not enough, so you split your network into multiple domains. 
+
+Forest - When your company is so large that you need multiple trees 
+
+Trust relations - there are one-way and two-way trust relations, but to put it simply, if one tree needs access to another, having a trust relation grants them access.
