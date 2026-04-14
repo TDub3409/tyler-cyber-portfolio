@@ -67,7 +67,7 @@ Security can be changed and configured in Windows settings. This includes virus 
 
 3. Public: The default profile is the public profile, used to designate public networks such as Wi-Fi hotspots at coffee shops, airports, and other locations
 
-TPM (Trusted Platform Module) - This is technology designed to provide hardware-based protection. It is basically a chip that provides cryptographic operations 
+TPM (Trusted Platform Module) is a technology designed to provide hardware-based protection. It is basically a chip that provides cryptographic operations 
 
 BitLocker - BitLocker Drive Encryption is a data protection feature that integrates with the operating system and addresses the threats of data theft or exposure from lost, stolen, or inappropriately decommissioned computers. This should be used with TPM for the best protection.
 
@@ -77,3 +77,23 @@ VSS (Volume Shadow Copy Service) - VSS will take a snapshot of data in time and 
 Windows Domain - a group of users and computers under the administration of a given business. 
 
 Active Directory - Acts as a central hub that controls the information of all objects within the network. Things that are in objects are users, groups, machines, printers, and really anything that belongs on the network. 
+
+Domain Controller - A server that controls the Active Directory
+
+Organizational Units - This is a way to group workers based on jobs to give them the same permissions as each other
+
+## Basic Security Groups
+Domain Admins - Members of this group have administrative powers 
+
+Server Operators - People of this group can administer Domain controllers; however, they are unable to affect the domain admins
+
+Backup Operators - People in this group can access any file and can perform backups
+
+Account Operators - People in this group can create and modify accounts
+
+Domain Users - All existing users
+
+Domain computers - All existing computers
+
+Domain controllers - All existing DCs
+
