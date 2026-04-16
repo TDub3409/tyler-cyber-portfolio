@@ -37,7 +37,7 @@ move - allows you to move files
 
 del - allows you to delete a file
 
-* - allows you to copy or move multiple files
+"*" - allows you to copy or move multiple files
 
 ### Task and Process Management Commands
 
