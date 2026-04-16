@@ -1,4 +1,4 @@
-### NOTE: some of the commands will be in Windoes-Fundamentals file
+### NOTE: some of the commands will be in Windows-Fundamentals file
 
 ## Commands for Windows cmd.exe
 set - checks the path you are on and returns it
