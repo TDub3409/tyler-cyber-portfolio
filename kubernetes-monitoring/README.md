@@ -30,9 +30,9 @@ the build work between myself and a partner. It began as a
 Database Design & Implementation course project and grew into a full
 infrastructure-observability build on real cluster infrastructure.
 
-<!-- If your professor confirms it's actually in use, uncomment and keep this: -->
-<!-- > The dashboard was subsequently adopted by the university for ongoing
-     monitoring of the cluster. -->
+
+The dashboard was subsequently adopted by the university for ongoing
+monitoring of the cluster. 
 
 ## Environment
 
@@ -91,16 +91,14 @@ was written to reshape the data for the human looking at it.
 
 ## What I set out to monitor, and why
 
-<!-- 2-4 sentences in YOUR words. You LED the scoping, so this is your story to
-     tell. Why these metrics? What did you want to be able to see at a glance?
-     e.g. "I chose pod readiness and node capacity because those are the two
-     failure modes that take a cluster down quietest..." -->
 
-[your reasoning here]
+Our team's overall goal was to monitor general pod and node health. Our dashboards
+were used to monitor the deployment of our school's pods as well as their functionality
+after deployment. 
+
 
 ## What I'd add next
 
-<!-- Honest forward-looking bullets. Ideas — keep only what's true/real to you: -->
 - Alerting rules so the dashboard pages someone instead of waiting to be watched
 - Pod restart-frequency tracking to catch crash-looping workloads
 - Historical retention for trend analysis rather than only live state
@@ -108,16 +106,8 @@ was written to reshape the data for the human looking at it.
 ## Repo Contents
 
 ```
-/
-├── README.md
-├── images/              # dashboard screenshots
-└── [dashboard JSON export, if you can grab it from Grafana]
-```
 
-<!-- Bonus, high-value if you can: Grafana → dashboard settings → JSON Model →
-     copy it into a dashboard.json file here. That lets anyone import your exact
-     dashboard, and proves it's real. Scrub any internal IPs/hostnames first. -->
 
----
+
 
 *Built by Tyler Wood · [github link] · [linkedin link]*
