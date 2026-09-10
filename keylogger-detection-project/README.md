@@ -42,8 +42,8 @@ In both states, the keylogger ran uninterrupted and continued writing captured k
 
 Ran a custom Aura scan directly against the project folder while the keylogger was **not** running (For privacy reasons, I can show the file location).
 
-![Scan options targeting the project folder](images/scan_options_idle.png)
-![Manual scan result — idle, no threats found](images/manual_scan_idle.png)
+![Scan options targeting the project folder](images/Scan_of_spesific_file.png)
+![Manual scan result — idle, no threats found](images/results_of_scan_while_not_running.png)
 
 **Result:** No threats found — 1,006 files scanned.
 
@@ -51,8 +51,8 @@ Ran a custom Aura scan directly against the project folder while the keylogger w
 
 Ran the same targeted scan against the same folder while the keylogger was **actively running** and writing to the log file.
 
-![Scan options while the keylogger is running](images/scan_options_running.png)
-![Manual scan result — running, no threats found](images/manual_scan_running.png)
+![Scan options while the keylogger is running](images/Scan_while_running.png)
+![Manual scan result — running, no threats found](images/Results_of_scan_while_running.png)
 
 **Result:** No threats found — 1,006 files scanned.
 
