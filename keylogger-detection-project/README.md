@@ -29,7 +29,7 @@ A short Python script using the `pynput` library that captures keystrokes system
 Compared Aura's real-time auto-scan protection in both states while the keylogger ran and actively wrote to `log.txt`.
 
 **Auto-scan off:**
-![Auto-scan snoozed](images/auto_scan_off.png)
+![Auto-scan snoozed](images/Screenshot_of_antivirus_being_off.png)
 ![Log file still capturing with auto-scan off](images/log_capturing_av-off.png)
 
 **Auto-scan on:**
