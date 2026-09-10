@@ -30,17 +30,17 @@ Compared Aura's real-time auto-scan protection in both states while the keylogge
 
 **Auto-scan off:**
 ![Auto-scan snoozed](images/Screenshot_of_antivirus_being_off.png)
-![Log file still capturing with auto-scan off](images/log_capturing_av-off.png)
+![Log file still capturing with auto-scan off](images/results_of_scan_while_not_running.png)
 
 **Auto-scan on:**
-![Auto-scan on](images/auto_scan_on.png)
-![Log file still capturing with auto-scan on](images/log_capturing_av_on.png)
+![Auto-scan on](images/Screenshot_of_antivirus_being_on.png)
+![Log file still capturing with auto-scan on](images/Still_working_while_on.png)
 
 In both states, the keylogger ran uninterrupted and continued writing captured keystrokes to the log file. No alerts, warnings, or blocks from Aura in either case.
 
 ### 2. Manual targeted scan — idle
 
-Ran a custom Aura scan directly against the project folder while the keylogger was **not** running.
+Ran a custom Aura scan directly against the project folder while the keylogger was **not** running (For privacy reasons, I can show the file location).
 
 ![Scan options targeting the project folder](images/scan_options_idle.png)
 ![Manual scan result — idle, no threats found](images/manual_scan_idle.png)
