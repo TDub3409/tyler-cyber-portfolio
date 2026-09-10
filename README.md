@@ -22,7 +22,7 @@ This repo collects my hands-on projects, write-ups, and coursework as I build to
 Real-time observability dashboards for a live multi-node Kubernetes cluster. Six panels tracking pod readiness, running pods, node storage and memory capacity, per-namespace workload distribution, and pod restart counts. I led the project and wrote the PromQL, including `label_replace` transforms to make node and pod data readable at a glance.
 `Grafana` · `Prometheus` · `PromQL` · `Kubernetes`
 
-### Endpoint Keylogger Detection Test *(in progress)*
+### Endpoint Keylogger Detection Test 
 A controlled keylogger built in Python and used to test the effectiveness of endpoint defenses — observing what host protections detect, flag, or miss, and documenting the gaps between attacker behavior and defensive visibility. A defensive study of an offensive technique.
 `Python` · `Endpoint Defense` · `Detection`
 
