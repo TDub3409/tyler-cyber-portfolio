@@ -29,12 +29,12 @@ A short Python script using the `pynput` library that captures keystrokes system
 Compared Aura's real-time auto-scan protection in both states while the keylogger ran and actively wrote to `log.txt`.
 
 **Auto-scan off:**
-![Auto-scan snoozed](images/auto-scan-off.png)
-![Log file still capturing with auto-scan off](images/log-capturing-av-off.png)
+![Auto-scan snoozed](images/auto_scan_off.png)
+![Log file still capturing with auto-scan off](images/log_capturing_av-off.png)
 
 **Auto-scan on:**
-![Auto-scan on](images/auto-scan-on.png)
-![Log file still capturing with auto-scan on](images/log-capturing-av-on.png)
+![Auto-scan on](images/auto_scan_on.png)
+![Log file still capturing with auto-scan on](images/log_capturing_av_on.png)
 
 In both states, the keylogger ran uninterrupted and continued writing captured keystrokes to the log file. No alerts, warnings, or blocks from Aura in either case.
 
@@ -42,8 +42,8 @@ In both states, the keylogger ran uninterrupted and continued writing captured k
 
 Ran a custom Aura scan directly against the project folder while the keylogger was **not** running.
 
-![Scan options targeting the project folder](images/scan-options-idle.png)
-![Manual scan result — idle, no threats found](images/manual-scan-idle.png)
+![Scan options targeting the project folder](images/scan_options_idle.png)
+![Manual scan result — idle, no threats found](images/manual_scan_idle.png)
 
 **Result:** No threats found — 1,006 files scanned.
 
@@ -51,8 +51,8 @@ Ran a custom Aura scan directly against the project folder while the keylogger w
 
 Ran the same targeted scan against the same folder while the keylogger was **actively running** and writing to the log file.
 
-![Scan options while the keylogger is running](images/scan-options-running.png)
-![Manual scan result — running, no threats found](images/manual-scan-running.png)
+![Scan options while the keylogger is running](images/scan_options_running.png)
+![Manual scan result — running, no threats found](images/manual_scan_running.png)
 
 **Result:** No threats found — 1,006 files scanned.
 
