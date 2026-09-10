@@ -95,7 +95,7 @@ are visible as a trend rather than as an outage.
 
 - Alerting rules so the dashboard pages someone instead of waiting to be watched
 - Longer-term historical retention for trend analysis rather than only recent state
-- Per-namespace resource-quota tracking to flag noisy-neighbor workloads
+
 
 ## Links
 
