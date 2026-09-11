@@ -30,7 +30,7 @@ Compared Aura's real-time auto-scan protection in both states while the keylogge
 
 **Auto-scan off:**
 ![Auto-scan snoozed](images/Screenshot_of_antivirus_being_off.png)
-![Log file still capturing with auto-scan off](images/results_of_scan_while_not_running.png)
+![Log file still capturing with auto-scan off](images/Results_without_the_antivirus.png)
 
 **Auto-scan on:**
 ![Auto-scan on](images/Screenshot_of_antivirus_being_on.png)
