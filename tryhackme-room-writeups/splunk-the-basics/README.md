@@ -23,12 +23,12 @@ the main menu. After this, I went through the process of uploading the TryHackMe
 commands to look at the possibilities of what Splunk can do. Beyond the guided steps, I looked at what putting in index=VPN_Logs looks like on its own. Doing this allowed me to see a clear timeline of logs, as well as multiple logs and their information.
 
 
-[Image of index=VPN_Logs](images/screenshot_of_splunk)
+[Image of index=VPN_Logs](tryhackme-room-writeups/images/screenshot_of_splunk.png)
 
 
 ## Key SPL / commands I picked up
 
-index=: set what index you would like to look for. This way, you do not have to look at everything at once. 
+index=: sets what index you would like to look for. This way, you do not have to look at everything at once. 
 search: This allows for basic filtering. You can find things such as country, username, and Source IP.
 stats count: allows you to count the number of events or results of a search.
 
