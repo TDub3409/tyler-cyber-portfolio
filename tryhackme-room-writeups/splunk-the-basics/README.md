@@ -29,7 +29,9 @@ commands to look at the possibilities of what Splunk can do. Beyond the guided s
 ## Key SPL / commands I picked up
 
 index=: sets what index you would like to look for. This way, you do not have to look at everything at once. 
+
 search: This allows for basic filtering. You can find things such as country, username, and Source IP.
+
 stats count: allows you to count the number of events or results of a search.
 
 ## Key takeaway
