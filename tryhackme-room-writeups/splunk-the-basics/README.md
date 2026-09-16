@@ -20,10 +20,10 @@ Splunk, SPL (Search Processing Language), indexes, basic search filtering
 
 Some of the things that I worked through in this room are the very basics of how Splunk works. I went through a tour of
 the main menu. After this, I went through the process of uploading the TryHackMe example logs. Finally, I ran some example
-commands to look at the possibilities of what Splunk can do. Beyond the guided steps, I looked at what putting in index=VPN_Logs looks like on its own. Doing this allowed me to see a clear timeline of logs as well as multiple logs and their information.
+commands to look at the possibilities of what Splunk can do. Beyond the guided steps, I looked at what putting in index=VPN_Logs looks like on its own. Doing this allowed me to see a clear timeline of logs, as well as multiple logs and their information.
 
 
-Image of logs
+[Image of index=VPN_Logs](images/screenshot_of_splunk)
 
 
 ## Key SPL / commands I picked up
